@@ -1,5 +1,6 @@
-#!/usr/bin/python3
-"""__init__ magic method for models directory"""
+#!/usr/bin/env python3
+""" Init module for classes defined and mini usage """
+
 from models.engine.file_storage import FileStorage
 
 

@@ -1,15 +1,11 @@
-#!/usr/bin/python3
-"""Defines the City class."""
+#!/usr/bin/env python3
+""" user class that inherits from the baseModel """
+
 from models.base_model import BaseModel
 
 
 class City(BaseModel):
-    """Represent a city.
-
-    Attributes:
-        state_id (str): The state id.
-        name (str): The name of the city.
-    """
+    """ city subclass of BaseModel """
 
     state_id = ""
     name = ""
